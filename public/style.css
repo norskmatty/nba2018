@@ -174,52 +174,52 @@ body {
     background-color: #CD1141;
 }
 
-#header-bulls {
+#bulls, #main-bulls {
     color: black;
     background-color: #CE1141;
 }
 
-#header-cavaliers {
+#cavaliers, #main-cavaliers {
     color: #FFB81C;
     background-color: #6E253C;
 }
 
-#header-pistons {
+#pistons, #main-pistons {
     color: white;
     background-color: #DD0031;
 }
 
-#header-pacers {
+#pacers, #main-pacers {
     color: #FFC526;
     background-color: #002D62;
 }
 
-#header-bucks {
+#bucks, #main-bucks {
     color: #F1EED4;
     background-color: #0D4722;
 }
 
-#header-hawks {
+#hawks, #main-hawks {
     color: #CC092F;
     background-color: white;
 }
 
-#header-hornets {
+#hornets, #main-hornets {
     color: #008BA7;
     background-color: #1C0F5F;
 }
 
-#header-heat {
+#heat, #main-heat {
     color: black;
     background-color: #98002E;
 }
 
-#header-magic {
+#magic, #main-magic {
     color: #0077C0;
     background-color: #C6CFD4;
 }
 
-#header-wizards {
+#wizards, #main-wizards {
     color: #CF0A2C;
     background-color: #0D2240;
 }
@@ -281,10 +281,10 @@ body {
 #content-nav {
     display: flex;
     flex-direction: row;
-    height: 75px;
+    height: 30px;
     justify-content: space-around;
     font-size: 20px;
-    padding-top: 27.5px;
+    padding-top: 5px;
     background-color: yellow;
 }
 
