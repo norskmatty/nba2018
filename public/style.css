@@ -306,6 +306,11 @@ body {
     height: 23px;
 }
 
+.space-row {
+    height: 16px;
+    margin-bottom: 3px;
+}
+
 .first-row {
     font-weight: bold;
     text-align: center;
@@ -328,8 +333,8 @@ body {
 }
 
 .salary {
-    width: 120px;
-    margin-right: 20px;
+    width: 130px;
+    margin-right: 10px;
 }
 
 .free-agency {
@@ -390,6 +395,7 @@ body {
 .pick {
     width: 400px;
     text-align: left;
+    padding-right: 25px;
 }
 
 .amt-remain {
