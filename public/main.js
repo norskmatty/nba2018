@@ -3,16 +3,19 @@ $(function () {
 
     $('.team-list li').click(function() {
             
-        $('#header').css({'height':'95px','overflow':'hidden'});
+        $('#header').css({'overflow':'hidden'});    
+        $('#header').animate({'height':'95px'});
+
         
         $('#drop-down').css({'display':'flex'});
         
-        $('#click-to-view').show();
+        $('#click-to-view').show(500);
         
         $('#drop-down').on('click', function() {
-            $('#header').css({'height':'450px'});
             $('#drop-down').css({'display':'none'});
-            $('#click-to-view').hide();
+            $('#header').animate({'height':'450px'});
+
+            $('#click-to-view').hide(500);
             $('#drop-down').off();
         });
        
