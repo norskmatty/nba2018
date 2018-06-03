@@ -4,6 +4,26 @@
     margin: 0;
 }
 
+#top-of-screen, #bottom-of-screen {
+    font-size: 28px;
+    text-align: center;
+    background-color: #00653A;
+    color: #FFC200;
+    height: 60px;
+    padding-top: 15px;
+    width: auto;
+    font-family: "Patua One";
+}
+
+#bottom-of-screen {
+    display: none;
+}
+
+#top-of-screen a, #bottom-of-screen a {
+    text-decoration: none;
+    color: #FFC200;
+}
+
 body {
     background-color: #E8E8E8;
 }
@@ -491,8 +511,104 @@ body {
 #word-box {
     margin-top: 10px;
     font-size: 18px;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
     margin: 20px 30px;
+    line-height: 1.5;
+}
+
+.bullet-point {
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#top-story {
+    font-family: 'Roboto';
+    border: solid #00653A 3px;
+}
+
+#top-story-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1050px;
+    height: 50px;
+}
+#top-story-title-left {
+    width: 600px;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 25px;
+    font-family: "Black Han Sans";
+}
+
+#top-story-title-right {
+    width: 200px;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 35px;
+}
+
+#top-story-image, #offseason-story-image {
+    height: 350px;
+    width: 600px;
+    background-size: 600px 350px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+#top-story-image {
+    background-image: url("/nba/public/images/whyjustwhy.jpg");
+}
+
+#offseason-story-image {
+    background-image: url("/nba/public/images/offseason.jpg");
+}
+
+#top-story-summary-line-1 {
+    margin-top: 10px;
+    padding-left: 40px;
+    font-size: 30px;
+}
+
+#top-story-summary-line-2 {
+    margin-top: 5px;
+    padding-left: 40px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#link-format {
+    text-decoration: none;
+    color: black;
+}
+
+.buffer {
+    height: 15px;
+}
+
+.image {
+    height: 350px;
+    width: 600px;
+    margin: 15px 25px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.caption {
+    width: 600px;
+    margin: 8px 25px;
+    font-size: 14px;
+    color: #00653A;
 }

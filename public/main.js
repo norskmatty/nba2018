@@ -10,6 +10,7 @@ $(function () {
         $('#drop-down').css({'display':'flex'});
         
         $('#click-to-view').show(500);
+        $('#bottom-of-screen').show(500);
         
         $('#drop-down').on('click', function() {
             $('#drop-down').css({'display':'none'});
