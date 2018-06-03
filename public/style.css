@@ -313,7 +313,6 @@ body {
 }
 
 #main {
-    margin-top: 20px;
     flex-direction: column;
     background-color: white;
     font-family: 'Roboto';
@@ -563,11 +562,11 @@ p {
 }
 
 #top-story-image {
-    background-image: url("/nba/public/images/whyjustwhy.jpg");
+    background-image: url("/nba2018/public/images/whyjustwhy.jpg");
 }
 
 #offseason-story-image {
-    background-image: url("/nba/public/images/offseason.jpg");
+    background-image: url("/nba2018/public/images/offseason.jpg");
 }
 
 #top-story-summary-line-1 {
@@ -581,6 +580,14 @@ p {
     padding-left: 40px;
     font-size: 20px;
     margin-bottom: 5px;
+}
+
+#title-box {
+    width: 1050px;
+    margin: auto;
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 #link-format {
