@@ -609,12 +609,22 @@ p {
     margin: 15px 25px;
 }
 
+.image-large {
+    width: 1000px;
+    height: 500px;
+    margin-left: 25px;
+}
+
 .right {
     float: right;
 }
 
 .left {
     float: left;
+}
+
+.center {
+    text-align: center;
 }
 
 .caption {
