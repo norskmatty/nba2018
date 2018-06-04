@@ -553,7 +553,7 @@ p {
     padding-right: 35px;
 }
 
-#top-story-image, #offseason-story-image {
+#top-story-image, #offseason-story-image, #second-story-image {
     height: 350px;
     width: 600px;
     background-size: 600px 350px;
@@ -562,6 +562,10 @@ p {
 }
 
 #top-story-image {
+    background-image: url("/nba2018/public/images/currythree.jpg");
+}
+
+#second-story-image {
     background-image: url("/nba2018/public/images/whyjustwhy.jpg");
 }
 
