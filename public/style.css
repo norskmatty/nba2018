@@ -31,6 +31,7 @@ body {
 #header {
     height: 425px;
     background-color: #E8E8E8;
+    margin-bottom: 15px;
 }
 
 #flex-box-wrap, #main {
@@ -94,6 +95,7 @@ body {
     width: 300px;
     background-color: grey;
     margin-left: 375px;
+    margin-bottom: 15px;
 }
 
 #drop-down:hover {
@@ -355,6 +357,7 @@ body {
     text-align: center;
     height: 75px;
     padding-top: 22.5px;
+    margin-bottom: 7px;
     font-size: 30px;
     background-color: black;
     color: white;
@@ -508,7 +511,6 @@ body {
 
 
 #word-box {
-    margin-top: 10px;
     font-size: 18px;
     width: 1050px;
     margin-left: auto;
@@ -518,6 +520,7 @@ body {
 p {
     margin: 20px 30px;
     line-height: 1.5;
+    margin-bottom: auto;
 }
 
 .bullet-point {
@@ -590,7 +593,8 @@ p {
     width: 1050px;
     margin: auto;
     font-size: 35px;
-    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -601,6 +605,7 @@ p {
 
 .buffer {
     height: 15px;
+    background-color: white;
 }
 
 .image {
@@ -632,4 +637,10 @@ p {
     margin: 8px 25px;
     font-size: 14px;
     color: #00653A;
+}
+
+#everything-box {
+    background-color: white;
+    width: 1050px;
+    margin: auto;
 }
