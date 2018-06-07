@@ -529,9 +529,13 @@ p {
     margin-bottom: 5px;
 }
 
-#top-story {
+#top-story, .lower-story {
     font-family: 'Roboto';
     border: solid #00653A 3px;
+}
+
+.lower-story {
+    width: 515px;
 }
 
 #top-story-title {
@@ -541,11 +545,28 @@ p {
     width: 1050px;
     height: 50px;
 }
+
+.lower-story-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 515px;
+    height: 50px;
+}
+
 #top-story-title-left {
     width: 600px;
     padding-top: 10px;
     padding-left: 40px;
     font-size: 25px;
+    font-family: "Black Han Sans";
+}
+
+.lower-story-title-left {
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 15px;
     font-family: "Black Han Sans";
 }
 
@@ -556,6 +577,14 @@ p {
     padding-right: 35px;
 }
 
+.lower-story-title-right {
+    width: 200px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 35px;
+    font-size: 14px;
+}
+
 #top-story-image, #offseason-story-image, #second-story-image {
     height: 350px;
     width: 600px;
@@ -564,16 +593,33 @@ p {
     margin-left: 20px;
 }
 
+#first-minor-story-image {
+    height: 225px;
+    width: 400px;
+    background-size: 400px 225px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #top-story-image {
-    background-image: url("/nba2018/public/images/currythree.jpg");
+    background-image: url("/nba2018/public/images/durantthree.jpg");
 }
 
 #second-story-image {
-    background-image: url("/nba2018/public/images/whyjustwhy.jpg");
+    background-image: url("/nba2018/public/images/currythree.jpg");
 }
 
 #offseason-story-image {
     background-image: url("/nba2018/public/images/offseason.jpg");
+}
+
+#first-minor-story-image {
+    background-image: url("/nba2018/public/images/whyjustwhy.jpg");
+}
+
+#second-minor-story-image {
+    background-image: url("/nba2018/public/images/whyjustwhy.jpg");
 }
 
 #top-story-summary-line-1 {
@@ -582,10 +628,24 @@ p {
     font-size: 30px;
 }
 
+.lower-story-summary-line-1 {
+    margin-top: 10px;
+    padding-left: 40px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
 #top-story-summary-line-2 {
     margin-top: 5px;
     padding-left: 40px;
     font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.lower-story-summary-line-2 {
+    margin-top: 5px;
+    padding-left: 40px;
+    font-size: 15px;
     margin-bottom: 5px;
 }
 
@@ -643,4 +703,10 @@ p {
     background-color: white;
     width: 1050px;
     margin: auto;
+}
+
+.lower-story-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
