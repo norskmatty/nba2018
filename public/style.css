@@ -611,11 +611,11 @@ p {
 }
 
 #top-story-image {
-    background-image: url("/nba2018/public/images/colangelo.jpg");
+    background-image: url("/nba2018/public/images/kdmvp.jpg");
 }
 
 #second-story-image {
-    background-image: url("/nba2018/public/images/durantthree.jpg");
+    background-image: url("/nba2018/public/images/colangelo.jpg");
 }
 
 #offseason-story-image {
@@ -623,10 +623,14 @@ p {
 }
 
 #first-minor-story-image {
-    background-image: url("/nba2018/public/images/currythree.jpg");
+    background-image: url("/nba2018/public/images/durantthree.jpg");
 }
 
 #second-minor-story-image {
+    background-image: url("/nba2018/public/images/currythree.jpg");
+}
+
+#third-minor-story-image {
     background-image: url("/nba2018/public/images/whyjustwhy.jpg");
 }
 
