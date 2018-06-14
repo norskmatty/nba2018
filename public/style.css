@@ -601,7 +601,7 @@ p {
     margin-left: 20px;
 }
 
-#first-minor-story-image, #second-minor-story-image {
+#first-minor-story-image, #second-minor-story-image, #third-minor-story-image, #fourth-minor-story-image {
     height: 225px;
     width: 400px;
     background-size: 400px 225px;
