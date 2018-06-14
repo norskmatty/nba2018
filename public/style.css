@@ -611,7 +611,7 @@ p {
 }
 
 #top-story-image {
-    background-image: url("/nba2018/public/images/kdmvp.jpg");
+    background-image: url("/nba2018/public/images/duranthands.jpg");
 }
 
 #second-story-image {
@@ -623,14 +623,18 @@ p {
 }
 
 #first-minor-story-image {
-    background-image: url("/nba2018/public/images/durantthree.jpg");
+    background-image: url("/nba2018/public/images/kdmvp.jpg");
 }
 
 #second-minor-story-image {
-    background-image: url("/nba2018/public/images/currythree.jpg");
+    background-image: url("/nba2018/public/images/durantthree.jpg");
 }
 
 #third-minor-story-image {
+    background-image: url("/nba2018/public/images/currythree.jpg");
+}
+
+#fourth-minor-story-image {
     background-image: url("/nba2018/public/images/whyjustwhy.jpg");
 }
 
