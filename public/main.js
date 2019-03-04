@@ -22,7 +22,7 @@ $(function () {
        
         var team_name = $(this).attr('id');
         $(function(){
-            $("#main").load("/../2019offseason/" + team_name + ".html"); 
+            $("#main").load(team_name + "19.html"); 
         });
        
     });
