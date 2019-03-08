@@ -362,7 +362,7 @@ body {
 }
 
 .main-title {
-    
+    display: flex;
 }
 
 #main-title-text {
