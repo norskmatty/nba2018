@@ -740,3 +740,12 @@ p {
     padding-left: 100px;
     padding-top: 7px;
 }
+
+#plus-minus-button {
+    height: 50px;
+    width: 50px;
+    background-image: url("/nba2018/public/images/add.png");
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
