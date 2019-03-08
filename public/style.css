@@ -362,6 +362,10 @@ body {
 }
 
 .main-title {
+    
+}
+
+#main-title-text {
     text-align: center;
     height: 75px;
     padding-top: 22.5px;
@@ -369,6 +373,7 @@ body {
     font-size: 30px;
     background-color: black;
     color: white;
+    width: 1050px;
 }
 
 #content {
@@ -745,7 +750,6 @@ p {
     height: 50px;
     width: 50px;
     background-image: url("/nba2018/public/images/add.png");
-    float: left;
     margin-top: 10px;
     margin-left: 10px;
 }
