@@ -362,10 +362,6 @@ body {
 }
 
 .main-title {
-    display: flex;
-}
-
-#main-title-text {
     text-align: center;
     height: 75px;
     padding-top: 22.5px;
